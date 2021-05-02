@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="playto">
+        <p> Winning Score: </p>
+        <select id="winningScore">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+    </div>
+
+    <div class="split left">
+        <h1 id="tLeft">Score</h1>
+        <h1 class="display p1" id="p1Display">0</h1>
+        <button class="Button P1" id="p1Button">+1 Player One</button>
+    </div>
+
+    <div class="split right">
+        <h1 id="tRight">Keeper</h1>
+        <h1 class="display p2" id="p2Display">0</h1>
+        <button class="Button P2" id="p2Button">+1 Player Two</button>
+    </div>
+
+    <button class="Button" id="reset">Reset</button>
+    <script src="apptwo.js"></script>
+    
+</body>
+</html>
